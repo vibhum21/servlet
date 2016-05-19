@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+
+label{
+font-family:sans-serif;
+display:block;
+margin:10px;
+padding-left: 80px;
+padding-top: 5px;
+}
+span.heading{
+font-family:cursive;
+display:block;
+font-size:30px;
+
+padding-left: 50px;
+
+width:420px;
+
+}
+span{
+font-size:20px;
+display:inline-block;
+width:120px;
+}
+
+div.wrapper{
+background-color: bisque;
+border-radius: 10px;
+padding: 20px;
+border-color: red;
+border-width: 3px;
+border-style: solid;
+width: 350px;
+height: 200px;
+margin: auto;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+h2.heading{
+
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+body
+{
+background-color: rgba(0,0,0,0,8);
+}
+input.btns {
+border: 0;
+background-color: graytext;
+padding-left:25px;
+padding-right:50px;
+width: 140px;
+height: 30px;
+font-size: 16px;
+color: white;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+input.btnd {
+border: 0;
+background-color: graytext;
+padding-left:20px;
+padding-right:70px;
+width: 140px;
+height: 30px;
+font-size: 16px;
+color: white;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<span class="heading">Welcome Admin!!!</span>
+
+<br><br>
+<form action="Insert.html">
+<label><input class="btns" type="submit" value="Insert a Book"></label>
+
+</form>
+<form action="Remove.html">
+<label><input class="btnd" type="submit" value="Remove Book"></label>
+
+</form>
+<form action="CurrentLoggedUsers" method="post">
+<label><input class="btnd" type="submit" value="Show Users"></label>
+
+</form>
+</div>
+</body>
+</html>
